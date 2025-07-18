@@ -8,14 +8,38 @@ Sistem ini merupakan platform berbasis web yang dirancang untuk memantau, mengan
 
 * 📅 Visualisasi kinerja harian melalui grafik interaktif
 
-* 📈 Prediksi skor efisiensi berbasis Machine Learning
+* 📈 Prediksi skor efisiensi berbasis Linear Regression yang dapat dilihat tim employee
 
-* 🤖 Prediksi jumlah pekerjaan esok hari menggunakan LSTM (Deep Learning)
+* 🧮 Prediksi performa pekerjaan karyawan menggunakan Random Forest Classifier yang dapat dilihat tim engineer
 
-* 📋 Akses log kerja karyawan (worklog)
+* 🤖 Prediksi jumlah pekerjaan esok hari menggunakan LSTM yang dapat dilihat tim engineer
+
+* 📋 Akses log kerja karyawan
 
 * 📊 Dashboard performa pengguna dan total task tim untuk engineer
 
 * ✅ Sistem API Flask untuk integrasi model prediktif
 
 * 🌐 Kompatibel dengan SQL Server dan terstruktur dalam arsitektur client-server
+
+## 🏗️ Teknologi yang Digunakan
+### 💻 Backend
+* ASP.NET Web Forms (C#)
+
+* SQL Server
+
+* Flask (Python)
+
+### 🧠 Model & Analitik
+* Scikit-Learn (Random Forest, Regression)
+
+* TensorFlow (LSTM)
+
+* Pandas, NumPy, Joblib
+
+### 📊 Frontend & Visualisasi
+* ECharts
+
+* HTML/CSS
+
+* JavaScript (AJAX, Fetch)
